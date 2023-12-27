@@ -1,0 +1,33 @@
+// base color
+$blue: #324157;
+$light-blue: #3a71a8;
+$red: #c03639;
+$pink: #e65d6e;
+$green: #30b08f;
+$tiffany: #4ab7bd;
+$yellow: #fec171;
+$panGreen: #30b08f;
+
+// sidebar
+$menuText: #bfcbd9;
+$menuActiveText: #409eff;
+$subMenuActiveText: #f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+
+$menuBg: #304156;
+$menuHover: #779fe5;
+// renhao 颜色
+$subMenuBg: #286CE4;
+$subMenuHover: #779fe5;
+
+$sideBarWidth: 200px;//Sidebar 宽度 renhao
+
+:export {
+  $my-menuText: $menuText;
+  $my-menuActiveText: $menuActiveText;
+  $my-subMenuActiveText: $subMenuActiveText;
+  $my-menuBg: $menuBg;
+  $my-menuHover: $menuHover;
+  $my-subMenuBg: $subMenuBg;
+  $my-subMenuHover: $subMenuHover;
+  $my-sideBarWidth: $sideBarWidth;
+}
